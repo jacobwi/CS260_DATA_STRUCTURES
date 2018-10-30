@@ -1,3 +1,11 @@
+//============================================================================
+// Name        : LinkedList.cpp
+// Author      : Amjed Muhsin Al Hammadi
+// Version     : 1.0
+// Copyright   : Copyright © 2017 SNHU COCE
+// Description : Lab 3-3 Lists and Searching
+//============================================================================
+
 #include <algorithm>
 #include <iostream>
 #include <time.h>
@@ -116,7 +124,7 @@ void LinkedList::Append(Bid bid) {
 void LinkedList::Prepend(Bid bid) {
     // FIXME (4): Implement prepend logic
 	Node *n = new Node(bid);
-	// if list is not empty
+	// if list is empty
 	if (head != nullptr) {
 		n->next = head;
 	}
