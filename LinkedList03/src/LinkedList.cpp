@@ -1,11 +1,3 @@
-//============================================================================
-// Name        : LinkedList.cpp
-// Author      : Amjed Muhsin Al Hammadi
-// Version     : 1.0
-// Copyright   : Copyright © 2017 SNHU COCE
-// Description : Lab 3-3 Lists and Searching
-//============================================================================
-
 #include <algorithm>
 #include <iostream>
 #include <time.h>
